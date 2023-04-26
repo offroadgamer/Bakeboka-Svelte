@@ -1,6 +1,7 @@
 <script>
     import { each } from "svelte/internal";
     import Navbar from "./lib/Navbar.svelte";
+    import Footer from "./lib/Footer.svelte";
     import Cake from "./oppskrift_kategorier/Cake.svelte";
     import YeastBakery from "./oppskrift_kategorier/Yeast_bakery.svelte";
     import Bread from "./oppskrift_kategorier/Bread.svelte";
@@ -40,10 +41,12 @@
     <Navbar></Navbar>
     <div class="main">
         <div class="dagens-oppskrift">
-            <h1>Dagens oppskrift:</h1>
-            <img src="./img/dagens_oppskrift.jpg" alt="mat">
-            <h2>Sticky buns med karamellsaus</h2>
-        </div>
+            <a href="./src/Oppskrift.svelte">
+                <h1>Dagens oppskrift:</h1>
+                <img src="./img/dagens_oppskrift.jpg" alt="mat">
+                <h2>Sticky buns med karamellsaus</h2>
+            </a>
+    </div>
         <div class="andre-oppskrifter">
             <div class="oppskrift-liste">
                 <h3>Kaker:</h3>
@@ -69,9 +72,9 @@
                 {/each}
                 </ul>
             </div>
-        </div>
-        
+        </div>   
     </div>
+    <Footer></Footer>
 </body>
 
 
@@ -84,26 +87,32 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         
     }
 
     .dagens-oppskrift {
+        width: 60%;
+        display: flex;
+        justify-content: center;
         padding: 10px 40px;
-        margin-bottom: 50px;
+        margin: auto auto 50px;
         box-shadow:  10px 10px 26px #cccccc,
                 -10px -10px 26px #ffffff;
     }
 
     .andre-oppskrifter {
+        width: 70%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        
     }
 
     .oppskrift-liste {
         padding: 10px 20px;
-        width: 200px;
+        width: 23%;
         height: 300px;
         box-shadow:  10px 10px 26px #cccccc,
                 -10px -10px 26px #ffffff;
