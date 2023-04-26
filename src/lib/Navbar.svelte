@@ -4,7 +4,7 @@
 
 <div class="navbar">
     <div class="navbar-title">
-        <h2><a class="navbar-icon" href="./Oppskrift.svelte">Bakeboka</a></h2>
+        <h2><a class="navbar-icon" href="./src/App.svelte">Bakeboka</a></h2>
     </div>
     <div class="navbar-searchbar">
         <div class="searchbar-box">
@@ -22,7 +22,7 @@
     .navbar {
         background-color: #FFE59F;
         width: 100%;
-        height: 100px;
+        min-height: 100px;
         top: 0px;
         display: flex;
         flex-direction: row;
