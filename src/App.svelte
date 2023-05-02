@@ -88,11 +88,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .dagens-oppskrift {
-        width: 60%;
+        max-width: 70%;
         display: flex;
         justify-content: center;
         padding: 10px 40px;

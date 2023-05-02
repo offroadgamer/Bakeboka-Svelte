@@ -23,7 +23,7 @@
         background-color: #000000;
         width: 100%;
         bottom: 0px;
-        min-height: 200px;
+        min-height: 150px;
         margin-top: 100px;
         color: #FFFFFF;
         padding-top: 40px;

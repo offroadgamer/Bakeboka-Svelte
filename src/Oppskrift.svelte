@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "./lib/Navbar.svelte";
     import Footer from "./lib/Footer.svelte";
+    import Navbar from "./lib/Navbar.svelte";
 </script>
 
 <head>
@@ -50,6 +50,28 @@
                 <li>Ha smør, sukker, kremfløte og honning i en kjele. Kok opp og la 
                     koke i ca 5 minutter til karamellsausen tykner. Dra kjelen av varmen 
                     og vend inn saltet.</li>
+                <li>Varm melken til 37 grader og ha i en bakebolle sammen med egg og gjær. 
+                    Bland sammen til gjæren er løst opp. Dersom du bruker tørrgjær skal 
+                    denne blandes med de tørre ingrediensene.</li>
+                <li>Ha i sukker, hvetemel, kardemomme og salt. Elt i 10 minutter.</li>
+                <li>Ha i smøret i terninger og elt til deigen slipper bollen og du kan 
+                    «strekke» deigen uten av den ryker. Dette tar ytterligere ca 10-15 
+                    minutter.</li>
+                <li>La deigen heve i ca 45 minutter.</li>
+                <li>Bland sammen smør, brunt sukker og kanel.</li>
+                <li>Strø litt mel utover bakebordet og ta deigen ut av bakebollen. Kjevle 
+                    deigen til et rektangel, ca 20x25 cm. Smør på fyllet, og rull deigen 
+                    sammen som en lang pølse.</li>
+                <li>Fordel 1/3 av karamellsausen utover en dyp langpanne med høye kanter. 
+                    Dekk gjerne formen med bakepapir før du har i karamellsausen.</li>
+                <li>Skjær deigpølsen i skiver og legg skivene i en langpanne med høye 
+                    kanter dekket med bakepapir.</li>
+                <li>Dekk til bollene med plastfolie og la heve i 30 minutter. Ha over 
+                    halvparten av karamellsausen som er igjen.</li>
+                <li>Stek bollene på 225 grader, midt i ovnen, i ca 10 minutter til de er 
+                    gylne.</li>
+                <li>Ha resten av karamellsausen og de hakkede pistasjnøttene over de 
+                    nybakte bollene med en gang de tas ut av ovnen.</li>
             </ol>
         </div>
     </div>
@@ -111,8 +133,10 @@
     .how-to-do {
         border: 5px solid blue;
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         padding: 20px;
+        line-height: 2;
+        margin-bottom: 100px;
     }
 
     .oppskrift-specs-header {
