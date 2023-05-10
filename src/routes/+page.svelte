@@ -1,7 +1,12 @@
 <script>
     import { each } from "svelte/internal";
+<<<<<<< HEAD:src/routes/+page.svelte
     import Navbar from "./about/Navbar.svelte";
     import Footer from "./about/Footer.svelte";
+=======
+    import Navbar from "./lib/Navbar.svelte";
+    import Footer from "./lib/Footer.svelte";
+>>>>>>> main:src/App.svelte
     import Cake from "./oppskrift_kategorier/Cake.svelte";
     import YeastBakery from "./oppskrift_kategorier/YeastBakery.svelte";
     import Bread from "./oppskrift_kategorier/Bread.svelte";
@@ -34,9 +39,15 @@
     <Navbar></Navbar>
     <div class="main">
         <div class="dagens-oppskrift">
+<<<<<<< HEAD:src/routes/+page.svelte
             <a href="./src/routes/Oppskrift.svelte">
                 <h1>Dagens oppskrift:</h1>
                 <img class="dagens-oppskrift-img" src="./src/lib/images/dagens_oppskrift.jpg" alt="mat">
+=======
+            <a href="./src/Oppskrift.svelte">
+                <h1>Dagens oppskrift:</h1>
+                <img src="./img/dagens_oppskrift.jpg" alt="mat">
+>>>>>>> main:src/App.svelte
                 <h2>Sticky buns med karamellsaus</h2>
             </a>
     </div>
@@ -94,10 +105,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD:src/routes/+page.svelte
     }
 
     .dagens-oppskrift {
         max-width: 70vw;
+=======
+        
+    }
+
+    .dagens-oppskrift {
+        width: 60%;
+>>>>>>> main:src/App.svelte
         display: flex;
         justify-content: center;
         padding: 10px 40px;
@@ -116,6 +135,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
 
     .oppskrift-liste {

@@ -4,7 +4,11 @@
 
 <div class="navbar">
     <div class="navbar-title">
+<<<<<<< HEAD:src/routes/about/Navbar.svelte
         <h2><a class="navbar-icon" href="/">Bakeboka</a></h2>
+=======
+        <h2><a class="navbar-icon" href="./src/App.svelte">Bakeboka</a></h2>
+>>>>>>> main:src/lib/Navbar.svelte
     </div>
     <div class="navbar-searchbar">
         <div class="searchbar-box">
